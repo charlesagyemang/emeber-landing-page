@@ -7,8 +7,8 @@ module.exports = function(defaults) {
     // Add options here
   });
 
-  app.import('bower_components/bootstrap/dist/js/bootstrap.js');
-  app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  app.import('node_modules/bootstrap/dist/js/bootstrap.js');
+  app.import('node_modules/bootstrap/dist/css/bootstrap.css');
   app.import('vendor/assets/css/creative.css');
 
   // Use `app.import` to add additional libraries to the generated
